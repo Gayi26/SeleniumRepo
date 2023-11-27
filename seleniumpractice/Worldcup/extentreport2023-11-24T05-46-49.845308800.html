@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 24, 2023 05:46:50 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">screenshot</p>
+            <p class="text-sm">
+              <span>5:46:50 am</span> / <span>00:00:00:014</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">screenshot</h5>
+<span class='badge badge-success'>11.24.2023 5:46:50 am</span>
+<span class='badge badge-danger'>11.24.2023 5:46:50 am</span>
+<span class='badge badge-default'>00:00:00:014</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+        <a href="data:image/png;base64,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AACSUAAAAAAkoQAAAABIQgEAAACQhAIAAAAgCQUAAABAEgoAAACAJBQAAAAASSgAAAAAklAAAAAAJKEAAAAASEIBAAAAkIQCAAAAIAkFAAAAQBIKAAAAgCQUAAAAAEkoAAAAAJJQAAAAACShAAAAAEhCAQAAAJCEAgAAACAJBQAAAEASCgAAAIAkFAAAAABJKAAAAACSUAAAAAAkoQAAAABIQgEAAACQhAIAAAAgCQUAAABAEgoAAACAJBQAAAAASSgAAAAAklAAAAAAJKEAAAAASEIBAAAAkIQCAAAAIAkFAAAAQBIKAAAAgCQUAAAAAEkoAAAAAJJQAAAAACShAAAAAEhCAQAAAJCEAgAAACAJBQAAAEASCgAAAIAkFAAAAABJKAAAAACSUAAAAAAkoQAAAABIQgEAAACQhAIAAAAgCQUAAABAEgoAAACAJBQAAAAASSgAAAAAklAAAAAAJKEAAAAASEIBAAAAkIQCAAAAIAkFAAAAQBIKAAAAgCQUAAAAAEkoAAAAAJJQAAAAACShAAAAAEhCAQAAAJCEAgAAACAJBQAAAEASCgAAAIAkFAAAAABJKAAAAACSUAAAAAAkoQAAAABIQgEAAACQhAIAAAAgCQUAAABAEgoAAACAJBQAAAAASSgAAAAAklAAAAAAJKEAAAAASEIBAAAAkIQCAAAAIAkFAAAAQBIKAAAAgCQUAAAAAEkoAAAAAJJQAAAAACShAAAAAEhCAQAAAJCEAgAAACAJBQAAAEASCgAAAIAkFAAAAABJKAAAAACSUAAAAAAkoQAAAABIQgEAAACQhAIAAAAgCQUAAABAEgoAAACAJBQAAAAASSgAAAAAklAAAAAAJKEAAAAASEIBAAAAkIQCAAAAIAkFAAAAQBIKAAAAgCQUAAAAAEkoAAAAAJJQAAAAACShAAAAAEhCAQAAAJCEAgAAACAJBQAAAEASCgAAAIAkFAAAAABJKAAAAACSUAAAAAAkoQAAAABIQgEAAACQhAIAAAAgCQUAAABAEgoAAACAJBQAAAAASSgAAAAA0v8DttTg6BI261AAAAAASUVORK5CYII=" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+        
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:46:50 am</td>
+        <td>
+          added screenshot
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 24, 2023 05:46:50 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 24, 2023 05:46:50 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>1</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"screenshot":0.014
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 1,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
